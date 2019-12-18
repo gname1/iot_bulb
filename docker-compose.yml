@@ -38,7 +38,7 @@ services:
             MYSQL_PASSWORD: test
             MYSQL_ROOT_PASSWORD: test
     app:
-        build: ./pyt
+        image: testacc1/mapp
         links:
           - 'db'
 volumes:
