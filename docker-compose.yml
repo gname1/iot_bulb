@@ -38,7 +38,7 @@ services:
             MYSQL_PASSWORD: test
             MYSQL_ROOT_PASSWORD: test
     app:
-        image: testacc1/mapp
+        image: testacc1/mapp:1
         links:
           - 'db'
 volumes:
